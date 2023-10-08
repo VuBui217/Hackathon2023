@@ -9,7 +9,7 @@ import openai
 app = Flask(__name__)
 
 # Replace 'YOUR_API_KEY' with your actual OpenAI API key
-api_key = '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'
+api_key = ''
 # Initialize the OpenAI API client
 openai.api_key = api_key
 
