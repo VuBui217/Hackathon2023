@@ -1,0 +1,99 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cyan;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+    background-color:  #168ab8;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+  
+  .topmenu {
+    color: rgb(48, 13, 224);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration:none;
+  }
+  
+  .topmenu:hover {
+    color: rgb(33, 201, 47);
+    /* Add the styles here */
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+  .profile_name {
+    float: left;
+    padding-left: 2cm;
+    /* Add the styles here */
+    color:rgb(91, 204, 94);
+    font-size: 40px;
+    
+  }
+
+  .profile_name {
+    float: left;
+    padding-left: 2cm;
+    /* Add the styles here */
+    color:rgb(23, 238, 33);
+    font-size: 30px;
+  }
+
+  h1 {
+    text-align: justify;
+    font-size: 50px;
+    text-align: center;
+    color:black
+  }
+  
+  /* Style the form */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the input field and submit button */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the response section */
+h2 {
+    margin-top: 20px;
+}
+
+/* Add some spacing and padding to the response section */
+p {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}

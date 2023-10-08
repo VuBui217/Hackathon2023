@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EventMatchMaker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+
+    <!-- Navigation Bar-->
+    <nav> 
+        <div id="home">
+        <div class="profile_name">
+            EventMatchMaker
+        </div>
+        <div class="topdiv">
+            <a class="topmenu" href="#about">About</a>
+            <!-- Add the links -->
+            <a class="topmenu" href="#eventsrecommendations">Event Recommendations</a>
+            <a class="topmenu" href="#academic">Academic</a>
+            <a class="topmenu" href="#Connect">Connect</a>
+        </div>
+        </div>
+    </nav>
+
+     <!-- About -->
+      <section id="about" class="container">
+        </div>
+            <h1>
+              Welcome to EventMatchMaker! <img src="https://img.icons8.com/external-ddara-fill-ddara/64/external-man-boy-student-kids-hello-gesture-candidate-avatar-ddara-fill-ddara.png"/>
+            </h1>
+        </div>
+      </section>
+      <!-- Events Recommendations-->
+      <section id="eventsrecommendations" class="container">
+      <div>
+          <h1>Ask a Question</h1>
+          <form method="POST">
+              <input type="text" name="user_input" placeholder="Enter your question">
+              <input type="submit" value="Submit">
+          </form>
+          {% if user_input %}
+          <h2>Your Question:</h2>
+          <p>{{ user_input }}</p>
+          <h2>Response:</h2>
+          <p>{{ response }}</p>
+          {% endif %}
+      </div>
+      </section>
+
+
+</body>
+</html>
